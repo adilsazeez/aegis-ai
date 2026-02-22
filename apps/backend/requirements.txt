@@ -1,2 +1,20 @@
 fastapi
 uvicorn
+supabase==2.23.0
+python-dotenv
+certifi
+assemblyai
+pyannote.audio
+torch
+librosa
+numpy
+python-multipart
+# RAG: load Prosocial Dialog from Hugging Face
+datasets
+# RAG: embeddings (same model as Actian RAG example: 384d, COSINE)
+sentence-transformers
+# LLM analysis (used in risk_analysis.py and RAG analysis)
+groq
+# Actian VectorAI DB Python client (Task 1: install from GitHub wheel)
+# If the line below fails (e.g. network), download the .whl from the repo and: pip install ./actiancortex-0.1.0b1-py3-none-any.whl
+actiancortex @ https://github.com/hackmamba-io/actian-vectorAI-db-beta/raw/main/actiancortex-0.1.0b1-py3-none-any.whl
