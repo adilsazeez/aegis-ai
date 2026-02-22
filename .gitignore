@@ -1,1 +1,16 @@
 .idea
+.DS_Store
+.cursor/
+
+# env files (secrets)
+.env*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Backend data (datasets, XML — not committed)
+apps/backend/data/
